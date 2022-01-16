@@ -1,0 +1,7 @@
+quran dataset : tanzil.net
+Abdullah Yusuf Ali : en
+Mahdi Elahi Ghomshei : fa
+prophet muhammad : ar
+
+stop words
+https://github.com/6/stopwords-json
