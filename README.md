@@ -1,6 +1,42 @@
 # quran-wordcloud
+## Introduction
+- remove punctuation
+- remove arabic sign
+- clear dataset
+- visulatization dataset with wordcloud
 
-In this study, we intend to have a statistical analysis of the original text of the Qur'an and its English translation and Persian translation; First, the text data is received and after the necessary preprocessing, super words are created for them; Hyperwords is produced for all texts and each chapter separately.
-Statistical analysis of data was been performed with the criteria of Term Frequency, TF Percentage, Document Frequency, Inverse Document Frequency, TFID Weight.
+## Result
+### Arabic
+[](wordcloud/arabic.png)
+### Persian
 
-**Keywords :** Quran and Hadith Studies, Text mining, Content Analysis
+### English
+
+## Dataset
+### Dataset References
+Tanzil Quran Text (Simple, Version 1.1)
+
+Copyright (C) 2007-2021 Tanzil Project
+
+License: Creative Commons Attribution 3.0
+
+<br />
+
+### Data Cleaning
+- remove string punctuation
+- remove arabic sings  ّ  ِ   ُ  َ
+- replace ك to ک
+- replace ي to ی
+- replace ة to ه
+- replace أ to ا
+- replace إ to ا
+- replace ؤ to و
+- separation of Quranic chapters
+
+
+<br />
+
+## Copyright
+- **Author :** Amir Shokri
+- **License :** MIT License
+- **Contribue :** Fork & PR
